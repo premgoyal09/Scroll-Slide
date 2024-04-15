@@ -1,0 +1,51 @@
+@font-face {
+    font-family: chacha;
+    src: url(./Heading-Now-Variable\ \(1\).ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    /* color: #fff; */
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+#page1 h1{
+    font-size: 40vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: chacha;
+    white-space: nowrap;
+    font-stretch: 250%;
+    font-weight: 999;
+
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: #dadada;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader{
+    font-size: 45px;
+    font-family: monument;
+}

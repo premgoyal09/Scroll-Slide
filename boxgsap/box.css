@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#page1{
+    height:100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#page2{
+    height:100%;
+    width: 100%;
+    background-color: rgb(9, 170, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#page3{
+    height:100%;
+    width: 100%;
+    background-color: rgb(0, 28, 19);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#boxx{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
